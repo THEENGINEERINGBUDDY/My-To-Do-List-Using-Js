@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="text-area shadow-xl;">
+        <div class="header">
+            <h1>My To-Do</h1>
+        </div>
+        <form action="">
+        <div class="entry">
+            <div class="type"><input type="text" placeholder="Type your task" id="task"></div>
+            
+            <div><button id="add">Add</button></div>
+            <div><button id="update" disabled="disabled">Update</button></div>
+            
+        </div>
+        </form>
+        <!-- our data which will show after action button -->
+        
+        <table id="table-data">
+            <tr>
+                <th>Tick if Done</th>
+                <th>Your Task</th>
+                <th>Action</th>
+            </tr>
+            <tbody id="table-data1"></tbody>
+            
+            
+                
+            </table>
+        
+        
+        
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
